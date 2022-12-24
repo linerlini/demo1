@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+:root {
+  --red1: hsl(345, 100%, 48%);
+  --red2: hsl(345, 100%, 38%);
+  --white1: hsl(0, 0%, 100%);
+  --white2: hsl(0, 0%, 90%);
+  --blue: hsl(215, 100%, 20%);
+  font-size: calc(16px + (20 - 16) * (100vw - 320px) / (1280 - 320));
+  --main-bg: #c2c2c2;
+	--trunk-bg-1: #5e2100;
+	--trunk-bg-2: #783e00;
+	--leaves-bottom-bg-1: #0f980f;
+	--leaves-bottom-bg-2: #3fc83f;
+	--leaves-middle-bg-1: #1fa81f;
+	--leaves-middle-bg-2: #4fd84f;
+	--leaves-top-bg-1: #2fb82f;
+	--leaves-top-bg-2: #5fe85f;
+	--star-bg: #ffdd00;
+	--shine-bg: #ffeb69;
+	--snow-bg: #f2f2f2;
+	--tree-width: 200px;
+	--tree-height: 400px;
+	--tree-rotate: -15deg;
+	--trunk-width: 30px;
+	--trunk-height: 400px;
+	--trunk-angle: 4.3deg;
+	--leaves-translate: 15px;
+	--leaves-bottom-width: 100px;
+	--leaves-bottom-height: 320px;
+	--leaves-bottom-angle: 18.2deg;
+	--leaves-middle-width: 80px;
+	--leaves-middle-height: 220px;
+	--leaves-middle-angle: 21.4deg;
+	--leaves-top-width: 60px;
+	--leaves-top-height: 140px;
+	--leaves-top-angle: 25.5deg;
+	--star-size: 20px;
+}
