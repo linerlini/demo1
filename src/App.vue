@@ -28,6 +28,7 @@ const handleClickGift = () => {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .tree--visible {
   transition: 500ms opacity ease-in-out;
